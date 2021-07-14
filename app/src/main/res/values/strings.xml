@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Alarm_Setter</string>
+    <string name="cancel_snooze">Cancel or Snooze for 5 min?</string>
 </resources>

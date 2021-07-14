@@ -11,13 +11,21 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center" />
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
+    <ImageView
+        android:id="@+id/mic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
-        android:checked="false"
-        android:onClick="OnToggleClicked" />
+        android:layout_margin="40dp"
+        android:src="@drawable/mic"
+        android:contentDescription="Mic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/tempText"
+        android:layout_marginLeft="20dp"
+        android:scrollbars = "vertical"
+        android:layout_marginRight="20dp"/>
 
 </LinearLayout>
